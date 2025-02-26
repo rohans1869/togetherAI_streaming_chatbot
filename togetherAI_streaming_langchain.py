@@ -1,6 +1,6 @@
 from flask import Flask, Response,request, jsonify, stream_with_context, request
 import os
-os.environ["TOGETHER_API_KEY"] = "6216ce36aadcb06c35436e7d6bbbc18b354d8140f6e805db485d70ecff4481d0"
+os.environ["TOGETHER_API_KEY"] = "621*ce36aadcb06*35436e7d6*bbc18b354d8140*6e805db485d70ecff*481d0"
 
 app = Flask(__name__)
 from langchain_together import ChatTogether
